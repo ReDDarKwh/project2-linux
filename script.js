@@ -12,18 +12,19 @@ const questions = [
   },
   {
     title: 'Niveau 2 ',
-    name: 'slow start (facile)',
-    desc: 'description n2'
+    name: 'Execution de script (facile)',
+    desc:
+      "Le mot de passe est affiché avec l'execution du fichier /usr/sbin/pass_script"
   },
   {
     title: 'Niveau 3 ',
-    name: 'slow start (facile)',
+    name: ' (facile)',
     desc: 'description n3'
   },
   {
     title: 'Niveau 4 ',
-    name: 'slow start (moyen)',
-    desc: 'description n3'
+    name: 'Monter une partition (moyen)',
+    desc: 'Le mot de passe se retrouve dans la partition /dev/sba1 '
   },
   {
     title: 'Niveau 5 ',
@@ -37,13 +38,15 @@ const questions = [
   },
   {
     title: 'Niveau 7',
-    name: 'slow start (difficile)',
-    desc: 'description n3'
+    name: 'Comparaison de fichiers (difficile)',
+    desc:
+      "Comparer les fichiers /usr/passv1 et /usr/passv2. Le mot de passe est la différence entre c'est deux fichiers"
   },
   {
     title: 'Niveau 8',
-    name: 'slow start (difficile) ',
-    desc: 'description n3'
+    name: 'Recherche dans un fichier texte (difficile) ',
+    desc:
+      'Rechercher le mot «inconnu» dans le fichier /usr/pass_cacher. Le mot de passe suit ce mot'
   }
 ];
 
