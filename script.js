@@ -2,19 +2,19 @@ const questions = [
   {
     title: 'Accueil',
     name: 'Ça commence ici!',
-    desc: 'Trouver les mots de passes pour passer au niveau suivant',
+    desc: 'Trouver les mots de passes pour passer au niveau suivant, pour commencer connectez-vous a la machine prj2.lan ',
     css: 'font-weight: bold;'
   },
   {
     title: 'Niveau 1 ',
     name: 'Lecture de fichier (facile)',
-    desc: 'Le mot de passe se retrouve dans le ficher /usr/home/pass'
+    desc: 'Connectez-vous au premier niveau avec l usager : "user1" et le moot de passe "93aoFiMz08sC". Le mot de passe pour l usager 2 se retrouve dans le ficher /usr/home/pass'
   },
   {
     title: 'Niveau 2 ',
     name: 'Execution de script (facile)',
     desc:
-      "Le mot de passe est affiché avec l'execution du fichier /usr/sbin/pass_script"
+      "Le mot de passe pour l usager 3 est affiché avec l'execution du fichier /usr/sbin/pass_script"
   },
   {
     title: 'Niveau 3 ',
