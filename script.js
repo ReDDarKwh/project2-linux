@@ -2,51 +2,49 @@ const questions = [
   {
     title: 'Accueil',
     name: 'Bienvenue sur notre site !',
-    desc: "Le jeu consiste à trouver les mots de passe des usagers en exécutant des commandes bash pour passer au niveau suivant22. <br>Pour commencer, connectez-vous en SSH a la machine <b>prj2.lan</b> avec l’usager <b>user1</b> et le mot de passe <b>93aoFiMz08sC</b> .",
+    desc: "Le jeu consiste à trouver les mots de passe des usagers en exécutant des commandes bash pour passer au niveau suivant. <br>Pour commencer, connectez-vous en SSH a la machine <b>prj2.lan</b> avec l’usager <b>user1</b> et le mot de passe <b>93aoFiMz08sC</b> .",
     css: 'font-weight: bold;'
   },
   {
-    title: 'Niveau 1 ',
+    title: 'Niveau 1',
     name: 'Lecture de fichier (facile)',
-    desc: 'Connectez-vous au premier niveau avec l usager : "user1" et le moot de passe "93aoFiMz08sC". Le mot de passe pour l usager 2 se retrouve dans le ficher /usr/home/pass'
+    desc: 'Le mot de passe pour <b>user2<b> se retrouve dans le ficher <i>/home/usr1/pass.txt</i> .'
   },
   {
-    title: 'Niveau 2 ',
+    title: 'Niveau 2',
     name: 'Execution de script (facile)',
-    desc:
-      "Le mot de passe pour l usager 3 est affiché avec l'execution du fichier /usr/sbin/pass_script"
+    desc: "Le mot de passe pour <b>user3<b> est affiché avec l'execution du fichier <i>/home/user2/pass_script.sh</i> ."
   },
   {
-    title: 'Niveau 3 ',
-    name: ' (facile)',
-    desc: 'description n3'
+    title: 'Niveau 3',
+    name: 'TODO (facile)',
+    desc: 'TODO description n3'
   },
   {
-    title: 'Niveau 4 ',
+    title: 'Niveau 4',
     name: 'Monter une partition (moyen)',
-    desc: 'Le mot de passe se retrouve dans la partition /dev/sba1 '
+    desc: 'Le mot de passe se retrouve dans la partition TODO '
   },
   {
-    title: 'Niveau 5 ',
-    name: 'slow start (moyen)',
-    desc: 'description n3'
+    title: 'Niveau 5',
+    name: 'TODO (moyen)',
+    desc: 'description n5'
   },
   {
-    title: 'Niveau 6 ',
-    name: 'slow start (moyen)',
-    desc: 'description n3'
+    title: 'Niveau 6',
+    name: 'Lescture d’un fichier simple(moyen)',
+    desc: 'Le mot de passe pour <b>user7<b> est se trouve dans le fichier <i>/home/user6/pass.txt</i> .'
   },
   {
     title: 'Niveau 7',
     name: 'Comparaison de fichiers (difficile)',
     desc:
-      "Comparer les fichiers /usr/passv1 et /usr/passv2. Le mot de passe est la différence entre c'est deux fichiers"
+      "Le mot de passe pour <b>user8<b> est la différence entre les fichier <i>/home/user7/file1.txt</i> et <i>/home/user7/file2.txt</i> ."
   },
   {
     title: 'Niveau 8',
     name: 'Recherche dans un fichier texte (difficile) ',
-    desc:
-      'Rechercher le mot «inconnu» dans le fichier /usr/pass_cacher. Le mot de passe suit ce mot'
+    desc: 'Le mot de passe final ....'
   }
 ];
 
