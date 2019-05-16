@@ -2,7 +2,7 @@ const questions = [
   {
     title: 'Accueil',
     name: 'Ça commence ici!',
-    desc: 'Trouver les mots de passes pour passer au niveau suivant, pour commencer connectez-vous a la machine prj2.lan ',
+    desc: "Bienvenue sur notre site ! <\br> Le jeu consiste à trouver les mots de passe des usagers en exécutant des commandes bash pour passer au niveau suivant.<\br>Pour commencer, connectez-vous en SSH a la machine <b>prj2.lan</b> avec l’usager <b>user1</b> et le mot de passe <b>93aoFiMz08sC</b> .",
     css: 'font-weight: bold;'
   },
   {
