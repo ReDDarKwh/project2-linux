@@ -18,7 +18,7 @@ const questions = [
   {
     title: 'Niveau 3',
     name: 'Fichier texte encrypté (facile)',
-    desc: 'Le mot de passe pour <b>user4</b> user4 est encodé en base 64 dans le fichier <i>/home/user3/base64</i>'
+    desc: 'Le mot de passe pour <b>user4</b> est encodé en base 64 dans le fichier <i>/home/user3/base64</i>'
   },
   {
     title: 'Niveau 4',
