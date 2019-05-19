@@ -8,38 +8,38 @@ const questions = [
   {
     title: 'Niveau 1',
     name: 'Lecture de fichier (facile)',
-    desc: 'Le mot de passe pour <b>user2<b/> se retrouve dans le ficher <i>/home/usr1/pass.txt</i> .'
+    desc: 'Le mot de passe pour <b>user2</b> se retrouve dans le ficher <i>/home/user1/pass.txt</i> .'
   },
   {
     title: 'Niveau 2',
     name: 'Execution de script (facile)',
-    desc: "Le mot de passe pour <b>user3<b/> est affiché avec l'execution du fichier <i>/home/user2/pass_script.sh</i> ."
+    desc: "Le mot de passe pour <b>user3</b> est affiché avec l'execution du fichier <i>/home/user2/pass_script.sh</i> ."
   },
   {
     title: 'Niveau 3',
     name: 'TODO (facile)',
-    desc: 'Le mot de passe pour <b>user3<b/> user4 est encodé en base 64 dans le fichier <i>/home/user3/base64</i>'
+    desc: 'Le mot de passe pour <b>user4</b> user4 est encodé en base 64 dans le fichier <i>/home/user3/base64</i>'
   },
   {
     title: 'Niveau 4',
     name: 'Monter une partition (moyen)',
-    desc: 'Le mot de passe pour <b>user5<b/> est dans la partition TODO '
+    desc: 'Le mot de passe pour <b>user5</b> est dans la partitio /home/user4/Partition.img '
   },
   {
     title: 'Niveau 5',
     name: 'TODO (moyen)',
-    desc: 'description n5'
+    desc: 'Le mot de passe pour <b>user6</b> fdd se trouve a la ligne 1352642 du fichier  <i>/home/user5/file.txt</i>'
   },
   {
     title: 'Niveau 6',
     name: 'Lescture d’un fichier simple(moyen)',
-    desc: 'Le mot de passe pour <b>user7<b/> est se trouve dans le fichier <i>/home/user6/pass.txt</i> .'
+    desc: 'Le mot de passe pour <b>user7</b> est se trouve dans le fichier <i>/home/user6/pass.txt</i> .'
   },
   {
     title: 'Niveau 7',
     name: 'Comparaison de fichiers (difficile)',
     desc:
-      "Le mot de passe pour <b>user8<b/> est la différence entre les fichier <i>/home/user7/file1.txt</i> et <i>/home/user7/file2.txt</i> ."
+      "Le mot de passe pour <b>user8</b> est la différence entre les fichier <i>/home/user7/file1.txt</i> et <i>/home/user7/file2.txt</i> ."
   },
   {
     title: 'Niveau 8',
