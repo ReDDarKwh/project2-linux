@@ -12,12 +12,12 @@ const questions = [
   },
   {
     title: 'Niveau 2',
-    name: 'Execution de script (facile)',
+    name: 'Exécution de script (facile)',
     desc: "Le mot de passe pour <b>user3</b> est affiché avec l'execution du fichier <i>/home/user2/pass_script.sh</i> ."
   },
   {
     title: 'Niveau 3',
-    name: 'TODO (facile)',
+    name: 'Fichier texte encrypté (facile)',
     desc: 'Le mot de passe pour <b>user4</b> user4 est encodé en base 64 dans le fichier <i>/home/user3/base64</i>'
   },
   {
@@ -27,7 +27,7 @@ const questions = [
   },
   {
     title: 'Niveau 5',
-    name: 'TODO (moyen)',
+    name: 'Lecture d’un fichier simple (moyen)',
     desc: 'Le mot de passe pour <b>user6</b> fdd se trouve a la ligne 1352642 du fichier  <i>/home/user5/file.txt</i>'
   },
   {
@@ -44,7 +44,7 @@ const questions = [
   {
     title: 'Niveau 8',
     name: 'Recherche dans un fichier texte (difficile) ',
-    desc: 'Le mot de passe final ....'
+    desc: 'Le mot de passe finale se trouve après le mot <i>«inconnu»</i> dans le fichier <i>/home/user8/pass_cacher.txt'</i>
   }
 ];
 
