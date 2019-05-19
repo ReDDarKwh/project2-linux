@@ -44,7 +44,7 @@ const questions = [
   {
     title: 'Niveau 8',
     name: 'Recherche dans un fichier texte (difficile) ',
-    desc: "Le mot de passe finale se trouve après le mot <i>inconnu</i> dans le fichier <i>/home/user8/pass_cacher.txt</i>" 
+    desc: "Le mot de passe finale se trouve apres le mot inconnu pass_cacher.txt</i>" 
 </i>
   }
 ];
